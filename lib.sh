@@ -13,6 +13,7 @@ sed -i 's/<strong>/**/g' output.txt
 sed -i 's/<\/strong>/**/g' output.txt
 sed -i 's/<em>/_/g' output.txt
 sed -i 's/<\/em>/_/g' output.txt
+sed -i 's/<img//g' output.txt
 sed -i 's/<a href="\(.*\)">/\[\1]/g' output.txt
 sed -i 's/<\/a>/\[\]/g' output.txt
 sed -i 's/<[^>]*>//g' output.txt
